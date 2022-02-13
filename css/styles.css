@@ -74,13 +74,51 @@ h1 {
     color: #FF4C68;
 }
 
-.feature-title {
+h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 1.4rem;
 }
 
-.feature-subtitle {
+p {
     color: #8F8F8F;
 }
 
+
+
+/* Testimonial Section */
+
+#testimonials {
+    text-align: center;
+    background-color: #EF8172;
+    color: #FAFAFA;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press Section */
+#press {
+    background-color: #EF8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
