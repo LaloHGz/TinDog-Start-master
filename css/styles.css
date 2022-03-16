@@ -12,6 +12,20 @@ p {
     color: #8F8F8F;
 }
 
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #FAFAFA;
+}
+
+
+.white-section {
+    background-color: #FAFAFA;
+}
+
+
 /* Headings */
 
 .section-heading {
@@ -26,11 +40,14 @@ p {
     text-shadow: 1px 1px 1px #BDBDBD;
 }
 
+
+
 /* Containers */
 .container-fluid {
     padding: 7% 15%;
     
 }
+
 
 
 /* Media query breakpoints*/
@@ -68,15 +85,11 @@ p {
 }
 
 
-/* Title */
-#title {
-    text-align: left;
-    background-color: #ff4c68;
-    color: #FAFAFA;
-}   
+/* Title */ 
 
 #title .container-fluid {
     padding: 3% 15% 7%;
+    text-align: left;
 }
 
 /* Title Image */
@@ -90,7 +103,6 @@ p {
 
 /* Features */
 #features {
-    background-color: #FAFAFA;
     position: relative;
 }
 
@@ -121,7 +133,6 @@ p {
 
 #testimonials {
     background-color: #EF8172;
-    color: #FAFAFA;
 }
 
 .testimonial-title {
@@ -178,11 +189,6 @@ p {
 }
 
 /* Cta Section*/
-
-#cta {
-    background-color: #FF4C68;
-    color: #FAFAFA;
-}
 
 .btn-cta-apple:hover {
     background-color: #424242;
